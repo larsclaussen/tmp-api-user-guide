@@ -1,0 +1,34 @@
+site_name: Threedi API V3 User Guide
+
+nav:
+    - Introduction: 'index.md'
+
+theme:
+    name: material
+    features:
+        - navigation.expand
+    palette:
+        primary: 'light green'
+        accent: 'green'
+    custom_dir: pub_docs/
+
+repo_name: API/V3.0
+repo_url: hhttps://api.3di.live/v3.0/swagger/
+docs_dir: pub_docs
+
+
+markdown_extensions:
+    - markdown.extensions.codehilite:
+        guess_lang: false
+    - toc:
+        permalink: 💡
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - admonition
+    - codehilite
+    - extra
+    - attr_list
+
